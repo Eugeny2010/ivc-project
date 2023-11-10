@@ -1,0 +1,53 @@
+
+
+.text_menu {color: white;
+    font-size: 22px;
+    margin-top: auto;
+   
+    
+    font-family: Arial, Helvetica, sans-serif;}
+
+ .menu{
+    background-color: black;
+    height: 125px;
+}
+
+li {
+  
+    display: inline-block;
+    margin: 10px 20px;
+    
+}
+         
+      a {
+          position: relative;
+          color: #FFF; 
+          cursor: pointer;
+          line-height: 1;
+          text-decoration: none;
+          
+      }
+      a:after {
+          display: block;
+          position: absolute;
+          left: 0;
+          width: 0;
+          height: 2px; 
+          background-color: #FFF; 
+          content: "";
+          transition: width 0.3s ease-out;
+      }
+      a:hover:after,
+      a:focus:after {
+          width: 100%; 
+      }
+
+.vcentertext {
+    margin-top: -77px;
+    margin-left: 150px
+}
+
+.logo-center {
+    margin-left: 20px;
+    margin-top: 8px;
+  }
